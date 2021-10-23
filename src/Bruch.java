@@ -4,6 +4,8 @@ public class Bruch {
 
     public Bruch(int numerator, int denominator) {
         // TODO: Setzen Sie die Attribute entsprechend
+		this.numerator = numerator;
+		this.denominator = denominator;
     }
 
     public int getNumerator() {
@@ -16,6 +18,7 @@ public class Bruch {
 
     public double toDecimal() {
         // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
+
         // Achtung: Ganzzahldivision!
         return 0;
     }
